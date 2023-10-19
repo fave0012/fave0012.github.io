@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+header, footer {
+    background-color: antiquewhite;
+}
+
+.site-title {
+    color: crimson;
+
+}
+
+#my-image {
+box-shadow: 0px 0px 2px 1px black;
+}
+
+li {
+    list-style: square;
+}
+
+li:nth-child(odd) {
+    background-color: brown;
+}
+
+a {
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-width: 3px;
+    border-color: crimson;
+    
+}a:hover {
+    background-color: black;
+}
+
