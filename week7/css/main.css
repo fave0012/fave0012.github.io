@@ -9,6 +9,26 @@ body {
     /* adding a background image */
     background-image: url(../images/white_brick_wall.png)
 }
+/* box model example */
+section p{
+    width: 50%;
+    /* 2 values = first value-top/bottom second value - left/right */
+    padding: 1rem .5rem;
+    /* 4 value = top bottom left right */
+    margin: -1em 2em 2em 2em;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* centre whole containers */
+}
+
+img {
+    width: 100%;
+    /* makes image always 100% no matter browser size */
+}
 
 h1 {
     color: cadetblue;
@@ -33,11 +53,20 @@ nav ul {
     list-style: none;
 }
 
+nav ul li {
+    display: inline-block;
+    width: 50%;
+    padding: 1em;
+    box-sizing: border-box;
+    /* makes nav side by side */
+}
+
 nav ul a {
     color: darkslategray;
     text-decoration: none;
     font-size: 1.5rem;
     /* 1.5rem (html font size) = 16*1.5 = 24px */
+    display: block;
 }
 
 /* selecting element with id value */
@@ -163,3 +192,10 @@ table td:nth-child(2n+1) {
 
 /* specificity */
 /* formula: inline style, id, class, tag-name */
+
+/*MIDTERM ASSIGNMENT
+header main footer
+header - text, image, nav (ul li empty # a tag)
+main - article (heading, text, image) put in div - float left create section in the article (heading, ul*4) make buttons only appear on 1
+footer - copyright info
+put in div - 1200 max pixels */
