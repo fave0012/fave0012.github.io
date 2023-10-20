@@ -1,10 +1,11 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: black;
 }
 
-header, footer {
+header,
+footer {
     background-color: antiquewhite;
 }
 
@@ -14,7 +15,7 @@ header, footer {
 }
 
 #my-image {
-box-shadow: 0px 0px 2px 1px black;
+    box-shadow: 0px 0px 2px 1px black;
 }
 
 li {
@@ -31,8 +32,9 @@ a {
     border-style: solid;
     border-width: 3px;
     border-color: crimson;
-    
-}a:hover {
-    background-color: black;
+
 }
 
+a:hover {
+    background-color: black;
+}
