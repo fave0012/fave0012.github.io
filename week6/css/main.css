@@ -64,6 +64,11 @@ article>p {
     font-size: 24px
 }
 
+article{
+    font-weight: bold;
+    line-height: 1.5;
+}
+
 /* adjacent siblings selector - selects the element that is the very next sibling to the selected element, if any exist */
 
 h3+ul {
