@@ -36,6 +36,8 @@ nav ul {
 nav ul a {
     color: darkslategray;
     text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5rem (html font size) = 16*1.5 = 24px */
 }
 
 /* selecting element with id value */
@@ -43,7 +45,17 @@ nav ul a {
 /* only one time per .html */
 #treatoftheweek {
     /* background-color: cadetblue; */
-    background: cadetblue url(../images/bread.jpg) no-repeat 10% 20%;
+    /* color, image, repeat, position x, position y */
+    background: cadetblue url(../images/bread.jpg) no-repeat center;
+    background-size: cover;
+    font-size: 1.25rem;
+    /* 1.25*16=20px */
+    padding: 1em;
+    /* 1 * 20px (element font size) = 20px */
+    /* viewport based units */
+    /* width: 100vw; */
+    width: 50%;
+    /* img takes up 50% of browsers width */
 }
 
 .blue-link {
@@ -54,6 +66,7 @@ nav ul a {
 
 .large-text {
     font-size: 24px;
+    line-height: 1.5em;
 }
 
 .white-text {
