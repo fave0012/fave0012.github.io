@@ -6,6 +6,8 @@ Shortcut for adding a comment is control + /
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategray;
+    /* adding a background image */
+    background-image: url(../images/white_brick_wall.png)
 }
 
 h1 {
@@ -40,7 +42,8 @@ nav ul a {
 /* as a best practice try to avoid using id for styles */
 /* only one time per .html */
 #treatoftheweek {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+    background: cadetblue url(../images/bread.jpg) no-repeat 10% 20%;
 }
 
 .blue-link {
@@ -67,6 +70,9 @@ article>p {
 article{
     font-weight: bold;
     line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+
 }
 
 /* adjacent siblings selector - selects the element that is the very next sibling to the selected element, if any exist */
