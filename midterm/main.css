@@ -42,7 +42,45 @@ table {
 	border-spacing: 0;
 }
 
-body{
+p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+img{
+	width: 35%;
+}
+
+h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;	
+}
+
+.navigation {
+	position: fixed;
+	top: 0;
+}
+
+.container3 {
+	outline-style: solid; 
+	margin-top: 10px;
+	margin-left: 10px;
+
 	
+}
+
+.image-container {
+
+}
+
+.container {
+	float: left;
+	max-width: 1200px;
+	margin: auto;
+
 }
