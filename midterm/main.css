@@ -141,7 +141,7 @@ table {
 	overflow: hidden;
 }
 
-body{
+body {
 	background-color: #aad4cf;
 }
 
@@ -151,20 +151,22 @@ img {
 	height: 100%;
 	object-fit: cover;
 }
+
 /* heading text */
-h1{
+h1 {
 	font-size: 48px;
 	color: white;
 	text-align: center;
 	position: relative;
 	top: -100px;
 }
+
 /* nav */
 nav,
 nav ul li,
 nav ul li a,
 nav ul li a :visited,
-nav ul li a :link{
+nav ul li a :link {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 24px;
@@ -182,35 +184,41 @@ h2 {
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
+
 /* body image */
 .wrap {
 	width: 200px;
 	height: 200px;
 	float: left;
 	margin: 10px 10px 10px 10px;
-	
+
 }
+
 /* body paragraph */
-.text{
+.text {
 	width: 860px;
 	line-height: 20px;
 	margin: 0 auto;
 }
+
 /* second h2 */
-.facts{
+.facts {
 	margin-top: 15px;
 	margin-bottom: 10px;
 }
+
 /* list */
-li{
+li {
 	margin: 0px 5px 5px 30px;
 	list-style: disc;
 }
+
 /* third h2 */
-.contact{
+.contact {
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
+
 /* contact info */
 .form {
 	outline-style: solid;
@@ -222,32 +230,33 @@ li{
 input[type=text] {
 	width: 100%;
 }
+
 /* textbox */
-textarea{
+textarea {
 	width: 100%;
 	resize: none;
 }
 
-.name{
+.name {
 	margin: 10px;
 	padding-top: 8px;
 }
 
-.email{
+.email {
 	margin: 10px;
 	padding-top: 8px;
 }
 
-.textarea{
+.textarea {
 	margin: 0 auto;
 	padding-top: 8px;
 }
 
-.radio{
+.radio {
 	margin-bottom: 20px;
 }
 
-footer{
+footer {
 	float: right;
 	margin: 20px;
 }
