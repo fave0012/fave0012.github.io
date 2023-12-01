@@ -9,23 +9,24 @@
 
 <body>
     <div class="container">
-        <!-- navigation -->
-        <div class="nav-list">
-            <nav>
-                <ul>
+        <header>
+            <!-- navigation -->
+            <div class="nav-list">
+                <nav>
                     <img src="images/logo.png" alt="logo">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                     <form action="index.html" method="post"></form>
                     <label for="search"></label>
-                    <li><input type="text" name="search" id="search" placeholder="Search"> <input type="button"
-                            value="Search"></li>
-                </ul>
-            </nav>
-        </div>
+                    <input type="text" name="search" id="search" placeholder="Search"> <input type="button"
+                        value="Search">
+                </nav>
+            </div>
         </header>
         <!-- main content starts -->
         <main>
@@ -170,7 +171,7 @@
                 <label for="message">Message</label>
                 <input type="text" name="message" id="message">
                 <label for="send"></label>
-                <input type="button" value="Send">
+                <input type="button" value="Send" id="send">
             </div>
             <div class="location">
                 <h3>Location</h3>
@@ -188,11 +189,11 @@
         <!-- copyright information -->
         <footer>
             <div class="footer">
-            &copy;Copyright Three Star Media, 2020
-            <p>
-                All images are taken from <a href="#">Unsplash</a>
-            </p>
-        </div>
+                &copy;Copyright Three Star Media, 2020
+                <p>
+                    All images are taken from <a href="#">Unsplash</a>
+                </p>
+            </div>
         </footer>
     </div>
 </body>
