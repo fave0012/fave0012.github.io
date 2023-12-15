@@ -1,0 +1,261 @@
+/* mobile styles */
+@media screen and (max-width:800px) {
+    
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.container{
+    background-color: white;
+}
+
+body{
+    line-height: px;
+}
+
+.nav-list{
+    background-color: #222;
+}
+
+.nav-list li{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited{
+    text-decoration: none;
+    color: #c78c06;
+}   
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current{
+    background-color: #c78c06;
+    color: #222;
+}
+
+.nav-form form{
+    text-align: center;
+}
+
+.banner{
+    color: white; 
+}
+
+.banner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 340px;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+  
+.banner img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.banner h1{
+    position: relative;
+    bottom: 300px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.banner p{
+    position: relative;
+    bottom: 280px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+
+.banner a,
+.banner a:link,
+.banner a:visited{
+    text-decoration: none;
+    color: black;
+    background-color: #c78c06;
+}
+
+.banner a,
+.banner a:focus,
+.banner a.current{
+    position: relative;
+    bottom: 225px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.about{
+    position: relative;
+    bottom: 145px;
+    background-color: #ffe6ac;
+    height: 400px;
+}
+
+.about img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.cards-heading{
+    bottom: 50px;
+    position: relative;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    background-color: #ffe6ac;
+    gap: 1em;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards a,
+.cards a:link,
+.cards a:visited{
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+}
+
+.cards a,
+.cards a:focus,
+.cards a.current{
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.card p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.vision-img img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.vision h3{
+    position: relative;
+    bottom: 250px;
+    color: white;
+    margin-left: 10px;
+}
+
+.vision p{
+    color: white;
+    position: relative;
+    bottom: 220px;
+    margin-left: 10px;
+}
+
+.vision a,
+.vision a:link,
+.vision a:visited{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+}
+
+.vision a,
+.vision a:focus,
+.vision a.current{
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 220px;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    background-color: #ffe6ac;
+    gap: 1em;
+}
+
+.name{
+    position: relative;
+    bottom: 50px;
+}
+
+.name h3{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.name h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.name p{
+    margin-left: 10px;
+}
+
+.contact h3{
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.form{
+    margin: 10px 10px 10px 10px;
+}
+
+.footer{
+    background-color: #222;
+    color: #c78c06;
+    line-height: 2rem;
+}
+
+.footer a,
+.footer a:link,
+.footer a:visited{
+    text-decoration: none;
+    color: #c78c06;
+    background-color: #222;
+}

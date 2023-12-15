@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Final Assignment</title>
 </head>
 
@@ -16,15 +18,17 @@
                     <img src="images/logo.png" alt="logo">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="#about">About Us</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Team</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                    <form action="index.html" method="post"></form>
-                    <label for="search"></label>
-                    <input type="text" name="search" id="search" placeholder="Search"> <input type="button"
-                        value="Search">
+                    <section class="nav-form">
+                        <form action="index.html" method="post"></form>
+                        <label for="search"></label>
+                        <input type="text" name="search" id="search" placeholder="Search"> <input type="button"
+                            value="Search">
+                    </section>
                 </nav>
             </div>
         </header>
@@ -32,6 +36,7 @@
         <main>
             <!-- home page -->
             <div class="banner">
+                <img src="images/main-banner.jpg" alt="banner">
                 <h1>Welcome to Three Star Media</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non iste, exercitationem similique minus
@@ -44,9 +49,12 @@
             <!-- about page -->
             <div class="about">
                 <img src="images/about-us.jpg" alt="ping pong">
-                <h2>About Us</h2>
+                <a id="#about">
+                    <h2>About Us</h2>
+                </a>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus architecto eligendi expedita,
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus architecto eligendi
+                    expedita,
                     eveniet
                     minus ipsa nemo natus, quo unde perspiciatis deleniti ea ad doloribus repudiandae cum tempore
                     consequuntur.
@@ -54,124 +62,126 @@
                 </p>
             </div>
             <!-- services page starts -->
-            <div class="services">
-                <h2>Our Services</h2>
-                <div class="digital">
-                    <img src="images/digital.jpg" alt="digital phone">
-                    <h3>Digital Transformation</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores mollitia ad id deleniti. Optio,
-                        facere reiciendis fuga officia exercitationem sunt nisi, beatae provident quasi atque mollitia
-                        eaque
-                        molestias, dolores sed.
-                    </p>
-                    <a href="#">Digital Plans</a>
+            <div class="cards">
+                <div class="cards-heading">
+                    <h2>Our Services</h2>
                 </div>
-                <div class="marketing">
-                    <img src="images/marketing.jpg" alt="marketing">
-                    <h3>Marketing</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus atque odio cupiditate
-                        provident
-                        tenetur, quisquam consequuntur? Numquam similique, laborum porro nobis facere minus ipsum et at
-                        in
-                        aliquid voluptates deserunt.
-                    </p>
-                    <a href="#">Marketing Plans</a>
-                </div>
-                <div class="video">
-                    <img src="images/video.jpg" alt="video">
-                    <h3>Video Production</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus atque odio cupiditate
-                        provident
-                        tenetur, quisquam consequuntur? Numquam similique, laborum porro nobis facere minus ipsum et at
-                        in
-                        aliquid voluptates deserunt.
-                    </p>
-                    <a href="#">Video Plans</a>
-                </div>
-                <div class="web">
-                    <img src="images/web.jpg" alt="web">
-                    <h3>Web Development</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus atque odio cupiditate
-                        provident
-                        tenetur, quisquam consequuntur? Numquam similique, laborum porro nobis facere minus ipsum et at
-                        in
-                        aliquid voluptates deserunt.
-                    </p>
-                    <a href="#">Web Plans</a>
-                </div>
-                <div class="print">
-                    <img src="images/print.jpg" alt="print">
-                    <h3>Print</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus atque odio cupiditate
-                        provident
-                        tenetur, quisquam consequuntur? Numquam similique, laborum porro nobis facere minus ipsum et at
-                        in
-                        aliquid voluptates deserunt.
-                    </p>
-                    <a href="#">Print Plans</a>
-                </div>
-                <!-- service page ends -->
+                <section class="card">
+                    <img src="images/digital.jpg" alt="Image">
+                    <div class="digital">
+                        <h3>Digital Transformation</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque officiis minima,
+                            pariatur autem dicta ipsum placeat harum. Saepe animi qui quam dignissimos veniam similique
+                            modi. Quae quam iste voluptates!
+                        </p>
+                        <a href="#" class="btn">Digital Plans</a>
+                    </div>
+                </section>
+                <section class="card">
+                    <img src="images/marketing.jpg" alt="Placeholder Image">
+                    <div class="marketing">
+                        <h3>Marketing</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque officiis minima,
+                            pariatur autem dicta ipsum placeat harum. Saepe animi qui quam dignissimos veniam similique
+                            modi. Quae quam iste voluptates!
+                        </p>
+                        <a href="#" class="btn">Marketing Plans</a>
+                    </div>
+                </section>
+                <section class="card">
+                    <img src="images/video.jpg" alt="Placeholder Image">
+                    <div class="video">
+                        <h3>Video Production</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque officiis minima,
+                            pariatur autem dicta ipsum placeat harum. Saepe animi qui quam dignissimos veniam similique
+                            modi. Quae quam iste voluptates!
+                        </p>
+                        <a href="#" class="btn">Video Plans</a>
+                    </div>
+                </section>
+                <section class="card">
+                    <img src="images/web.jpg" alt="Image">
+                    <div class="web">
+                        <h3>Web Development</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque officiis minima,
+                            pariatur autem dicta ipsum placeat harum. Saepe animi qui quam dignissimos veniam similique
+                            modi. Quae quam iste voluptates!
+                        </p>
+                        <a href="#" class="btn">Web Plans</a>
+                    </div>
+                </section>
+                <section class="card">
+                    <img src="images/print.jpg" alt="Placeholder Image">
+                    <div class="print">
+                        <h3>Print</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque officiis minima,
+                            pariatur autem dicta ipsum placeat harum. Saepe animi qui quam dignissimos veniam similique
+                            modi. Quae quam iste voluptates!
+                        </p>
+                        <a href="#" class="btn">Print Plans</a>
+                    </div>
+                </section>
             </div>
-            <div class="vision">
+            <section class="vision-img">
                 <img src="images/vision.jpg" alt="vision">
+            </section>
+            <div class="vision">
                 <h3>Our Vision</h3>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus atque odio cupiditate provident
-                    tenetur, quisquam consequuntur? Numquam similique, laborum porro nobis facere minus ipsum et at in
-                    aliquid voluptates deserunt.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum eos aliquam illo. Aliquid quis sed
+                    blanditiis, iusto sequi dolorum odio numquam nihil. Neque nam eos quo ullam reprehenderit, dicta
+                    quod.
                 </p>
                 <a href="#">Learn More</a>
             </div>
-            <!-- team page -->
             <div class="team">
                 <h2>Our Team</h2>
-            </div>
-            <div class="john-img">
-                <img src="images/john.jpg" alt="john">
-            </div>
-            <div class="john">
-                <h3>John Doe</h3>
-                <p>
-                    CEO and Co-owner
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quibusdam voluptate possimus eius
-                    ipsam voluptates quia ullam, commodi similique aliquid vitae labore esse obcaecati magnam quae
-                    cumque. Facilis, dolorum. Eligendi.
-                </p>
-            </div>
-            <div class="bob-img">
-                <img src="images/bob.jpg" alt="bob">
-            </div>
-            <div class="bob">
-                <h3>Bob Rite</h3>
-                <p>
-                    CFO and Co-owner
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat et obcaecati hic sequi
-                    reprehenderit in possimus quo labore soluta? Nesciunt expedita illum recusandae est, nam culpa
-                    perferendis error qui excepturi.
-                </p>
+                <section class="card">
+                    <img src="images/john.jpg" alt="john">
+                </section>
+                <div class="name">
+                    <h3>John Doe</h3>
+                    <h4>CEO and Co-owner</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quibusdam voluptate possimus
+                        eius
+                        ipsam voluptates quia ullam, commodi similique aliquid vitae labore esse obcaecati magnam quae
+                        cumque. Facilis, dolorum. Eligendi.
+                    </p>
+                </div>
+                <section class="card">
+                    <img src="images/bob.jpg" alt="bob">
+                </section>
+                <div class="name">
+                    <h3>Bob Rite</h3>
+                    <h4>CFO and Co-owner</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat et obcaecati hic sequi
+                        reprehenderit in possimus quo labore soluta? Nesciunt expedita illum recusandae est, nam culpa
+                        perferendis error qui excepturi.
+                    </p>
+                </div>
             </div>
             <!-- contact page -->
             <h2>Contact Us</h2>
             <div class="contact">
                 <h3>Send us a message</h3>
-                <form action="index.html" method="post"></form>
-                <label for="name">Fullname</label>
-                <input type="text" name="name" id="name">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-                <label for="message">Message</label>
-                <input type="text" name="message" id="message">
-                <label for="send"></label>
-                <input type="button" value="Send" id="send">
+                <section class="form">
+                    <form action="index.html" method="post"></form>
+                    <label for="name">Fullname</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <label for="message">Message</label>
+                    <input type="text" name="message" id="message">
+                    <label for="send"></label>
+                    <input type="button" value="Send" id="send">
+                </section>
             </div>
             <div class="location">
                 <h3>Location</h3>
