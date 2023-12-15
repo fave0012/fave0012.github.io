@@ -18,6 +18,8 @@ body{
     line-height: px;
 }
 
+/* ****NAV LIST********* */
+
 .nav-list{
     background-color: #222;
 }
@@ -45,6 +47,7 @@ body{
     text-align: center;
 }
 
+/* ******MAIN BANNER********** */
 .banner{
     color: white; 
 }
@@ -110,6 +113,7 @@ h3{
     font-size: 24px;
 }
 
+/* *********ABOUT PAGE************ */
 .about{
     position: relative;
     bottom: 145px;
@@ -122,6 +126,7 @@ h3{
     object-fit: contain;
 }
 
+/* **********CARD STYLING********8 */
 .cards-heading{
     bottom: 50px;
     position: relative;
@@ -170,6 +175,8 @@ h3{
     margin-top: 10px;
 }
 
+/* ********VISION BANNER************ */
+
 .vision-img img{
     width: 100%;
     object-fit: contain;
@@ -207,6 +214,8 @@ h3{
     position: relative;
     bottom: 220px;
 }
+
+/* ********TEAM CARDS*********** */
 
 .team{
     display: grid;
